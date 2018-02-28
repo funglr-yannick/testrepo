@@ -51,6 +51,7 @@ class App extends Component {
   componentWillMount(){
     this.getProjects();
     this.getTodos();
+    console.log("gittest");
   }
 
   componentDidMount(){
@@ -70,7 +71,7 @@ class App extends Component {
     this.setState({projects:projects});
   }
 
-  
+
 
 
   render() {
